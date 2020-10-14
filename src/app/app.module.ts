@@ -3,16 +3,26 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EmployeeServiceService } from './employee-service.service';
+import { EmployeeComponent } from './employee/employee.component';
+import { AgmCoreModule } from '@agm/core';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { OwlModule } from 'ngx-owl-carousel'; 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EmployeeComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,OwlModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCtfZfJy2rlYQbGO_YsYOqRhpYjbZIzi14'
+    })
   ],
-  providers: [],
+  providers: [EmployeeServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
