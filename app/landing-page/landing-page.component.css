@@ -5861,7 +5861,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 
 .masthead__style-overlay {
     position: absolute;
-    background-image: url("../../assets/images/masthead-overlay.png"); 
+    background-image: url("/assets/images/masthead-overlay.png"); 
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100% auto;
@@ -5875,7 +5875,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .masthead__style-overlay {
-        background-image: url("/assets/images/masthead-overlay@2x.png"); 
+        background-image: url("../../assets/images/masthead-overlay.png"); 
     }
 }
 
@@ -7930,12 +7930,12 @@ button:hover, button:focus, button:active {
     background-position: bottom center;
     background-size: 100% auto;
     background-color: #d7deee;
-    background-image: url("/assets/images/pricing-bg-default.png"); 
+    background-image: url("../../assets/images/pricing-bg-default.png"); 
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .pricing__grid-header {
-        background-image: url("/assets/images/pricing-bg-default@2x.png"); 
+        background-image: url("../../assets/images/pricing-bg-default@2x.png"); 
     }
 }
 
