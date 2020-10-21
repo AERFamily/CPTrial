@@ -3134,39 +3134,39 @@ BASE - base styles,  variables, typhography, etc
 }
 
 .icon-book {
-     background-image: url("/assets/icons/svg/book.svg"); 
+     background-image: url("../../assets/icons/svg/book.svg"); 
 }
 
 .icon-chart {
-     background-image: url("/assets/icons/svg/chart.svg"); 
+     background-image: url("../../assets/icons/svg/chart.svg"); 
 }
 
 .icon-cogs {
-    background-image: url("/assets/icons/svg/cogs.svg"); 
+    background-image: url("../../assets/icons/svg/cogs.svg"); 
 }
 
 .icon-device {
-    background-image: url("/assets/icons/svg/device.svg");
+    background-image: url("../../assets/icons/svg/device.svg");
 }
 
 .icon-download {
-    background-image: url("/assets/icons/svg/download.svg"); 
+    background-image: url("../../assets/icons/svg/download.svg"); 
 }
 
 .icon-flask {
-    background-image: url("/assets/icons/svg/flask.svg"); 
+    background-image: url("../../assets/icons/svg/flask.svg"); 
 }
 
 .icon-hard-disk {
-    background-image: url("/assets/icons/svg/hard-disk.svg");
+    background-image: url("../../assets/icons/svg/hard-disk.svg");
 }
 
 .icon-help {
-     background-image: url("/assets/icons/svg/help.svg"); 
+     background-image: url("../../assets/icons/svg/help.svg"); 
 }
 
 .icon-gift {
-    background-image: url("/assets/icons/svg/gift.svg"); 
+    background-image: url("../../assets/icons/svg/gift.svg"); 
 }
 
 .icon-users {
@@ -3174,19 +3174,19 @@ BASE - base styles,  variables, typhography, etc
 }
 
 .icon-paper-plane {
-     background-image: url("/assets/icons/svg/paper-plane.svg");
+     background-image: url("../../assets/icons/svg/paper-plane.svg");
 } 
 
 .icon-tree {
-    background-image: url("/assets/icons/svg/tree.svg"); 
+    background-image: url("../../assets/icons/svg/tree.svg"); 
 }
 
 .icon-question {
-    background-image: url("/assets/icons/svg/question.svg");
+    background-image: url("../../assets/icons/svg/question.svg");
 }
 
 .icon-wallet {
-     background-image: url("/assets/icons/svg/wallet.svg"); 
+     background-image: url("../../assets/icons/svg/wallet.svg"); 
 }
 
 /* Typography */
@@ -5200,7 +5200,7 @@ PARTIALS - Header,  Masthead, Footer, etc
     display: inline-block;
     width: 100px;
     height: 25px;
-    background: url("/dist/assets/brand/logo@2x.png") no-repeat 0 0; 
+    background: url("../../assets/brand/logo@2x.png") no-repeat 0 0; 
     background-size: 100px 25px;
     text-indent: -99999px;
 }
@@ -5522,7 +5522,7 @@ PARTIALS - Header,  Masthead, Footer, etc
     width: 35%;
     height: 100%;
     display: block;
-    background: #edf3ff url("/assets/images/megamenu-bg.svg") no-repeat bottom left; 
+    background: #edf3ff url("../../assets/images/megamenu-bg.svg") no-repeat bottom left; 
     background-size: 100% auto;
     top: 0;
     right: 0;
@@ -5807,7 +5807,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 
 .masthead__style-watter {
     position: relative;
-    background-image: url("/assets/images/masthead-watter-bg.png"); 
+    background-image: url("../../assets/images/masthead-watter-bg.png"); 
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 100% auto;
@@ -5816,7 +5816,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .masthead__style-watter {
-        background-image: url("/assets/images/masthead-watter-bg@2x.png"); 
+        background-image: url("../../assets/images/masthead-watter-bg@2x.png"); 
     }
 }
 
@@ -5861,7 +5861,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 
 .masthead__style-overlay {
     position: absolute;
-    background-image: url("/assets/images/masthead-overlay.png"); 
+    background-image: url("../../assets/images/masthead-overlay.png"); 
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100% auto;
@@ -5919,7 +5919,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 .masthead__browser {
     display: block;
     position: relative;
-    background-image: url("/assets/images/icons-bg.png"); 
+    background-image: url("../../assets/images/icons-bg.png"); 
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100% auto;
@@ -5928,7 +5928,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .masthead__browser {
-        background-image: url("/assets/images/icons-bg@2x.png"); 
+        background-image: url("../../assets/images/icons-bg@2x.png"); 
     }
 }
 
@@ -5969,7 +5969,7 @@ PARTIALS - Header,  Masthead, Footer, etc
     content: '';
     width: 60px;
     height: 10px;
-    background-image: url("/assets/images/screenshot/browser-clos.png"); 
+    background-image: url("../../assets/images/screenshot/browser-close.png"); 
     background-repeat: no-repeat;
     background-position: top left;
     background-size: auto 100%;
@@ -5980,7 +5980,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .masthead__browser-wrapper .owl-carousel:after {
-        background-image: url("/assets/images/screenshot/browser-close@2x.png"); 
+        background-image: url("../../assets/images/screenshot/browser-close@2x.png"); 
     }
 }
 
@@ -6008,7 +6008,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 }
 
 .masthead__gradient-content {
-    background-image: url("/assets/images/gradient-image-bg.png"); 
+    background-image: url("../../assets/images/gradient-image-bg.png"); 
     background-repeat: repeat;
     background-position: top left;
     padding: 180px 0 80px 0;
@@ -6022,7 +6022,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .masthead__gradient-content {
-        background-image: url("/assets/images/gradient-image-bg@2x.png"); 
+        background-image: url("../../assets/images/gradient-image-bg@2x.png"); 
     }
 }
 
@@ -6094,22 +6094,22 @@ PARTIALS - Header,  Masthead, Footer, etc
 }
 
 .section__divider-left::before {
-    background-image: url("/assets/images/section-divider-bg-left.png"); 
+    background-image: url("../../assets/images/section-divider-bg-left.png"); 
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .section__divider-left::before {
-        background-image: url("/assets/images/section-divider-bg-left@2x.png"); 
+        background-image: url("../../assets/images/section-divider-bg-left@2x.png"); 
     }
 }
 
 .section__divider-right::before {
-     background-image: url("/assets/images/section-divider-bg-right.png"); 
+     background-image: url("../../assets/images/section-divider-bg-right.png"); 
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .section__divider-right::before {
-        background-image: url("/assets/images/section-divider-bg-right@2x.png"); 
+        background-image: url("../../assets/images/section-divider-bg-right@2x.png"); 
     }
 }
 
@@ -6128,12 +6128,12 @@ PARTIALS - Header,  Masthead, Footer, etc
     background-position: top center;
     background-size: 100% auto;
     background-color: #edf3ff;
-    background-image: url("/assets/images/section-bg-watter-top.png"); 
+    background-image: url("../../assets/images/section-bg-watter-top.png"); 
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .section__gray-watter--top {
-        background-image: url("/assets/images/section-bg-watter-top@2x.png"); 
+        background-image: url("../../assets/images/section-bg-watter-top@2x.png"); 
     }
 }
 
@@ -6149,12 +6149,12 @@ PARTIALS - Header,  Masthead, Footer, etc
     background-position: bottom center;
     background-size: 100% auto;
     background-color: #edf3ff;
-    background-image: url("/assets/images/section-bg-watter-bottom.png"); 
+    background-image: url("../../assets/images/section-bg-watter-bottom.png"); 
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .section__gray-watter--bottom {
-        background-image: url("/assets/images/section-bg-watter-bottom@2x.png"); 
+        background-image: url("../../assets/images/section-bg-watter-bottom@2x.png"); 
     }
 }
 
@@ -6182,7 +6182,7 @@ PARTIALS - Header,  Masthead, Footer, etc
     position: absolute;
     display: block;
     content: '';
-    background: url("/assets/images/section-heading.png") no-repeat 0 0; 
+    background: url("../../assets/images/section-heading.png") no-repeat 0 0; 
     background-size: cover;
     width: 85px;
     height: 8px;
@@ -6278,7 +6278,7 @@ PARTIALS - Header,  Masthead, Footer, etc
     position: absolute;
     left: 0;
     bottom: 0;
-    background: #f4f7fc url("/assets/images/megamenu-bg.svg") no-repeat bottom left; 
+    background: #f4f7fc url("../../assets/images/megamenu-bg.svg") no-repeat bottom left; 
 }
 
 @media (max-width: 991px) {
@@ -6502,7 +6502,7 @@ PARTIALS - Header,  Masthead, Footer, etc
     position: absolute;
     display: block;
     content: '';
-    background: url("/assets/images/section-heading.png") no-repeat 0 0; 
+    background: url("../../assets/images/section-heading.png") no-repeat 0 0; 
     background-size: cover;
     width: 85px;
     height: 8px;
@@ -6530,7 +6530,7 @@ PARTIALS - Header,  Masthead, Footer, etc
     position: absolute;
     display: block;
     content: '';
-    background: url("/assets/icons/instagram.png") no-repeat 0 0; 
+    background: url("../../assets/icons/instagram.png") no-repeat 0 0; 
     background-size: cover;
     width: 25px;
     height: 25px;
@@ -6670,7 +6670,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 
 /* Section */
 .section__cta {
-    background: #403595 url("/assets/images/cta-bg.png") no-repeat center center; 
+    background: #403595 url("../../assets/images/cta-bg.png") no-repeat center center; 
     padding: 100px 0;
     color: #fff;
     text-align: center;
@@ -8069,12 +8069,12 @@ button:hover, button:focus, button:active {
 
 .pricing__grid-blue .pricing__grid-header {
     background-color: #1e5ee5;
-    background-image: url("/assets/images/pricing-bg-blue.png"); 
+    background-image: url("../../assets/images/pricing-bg-blue.png"); 
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .pricing__grid-blue .pricing__grid-header {
-        background-image: url("/assets/images/pricing-bg-blue@2x.png"); 
+        background-image: url("../../assets/images/pricing-bg-blue@2x.png"); 
     }
 }
 
@@ -8093,12 +8093,12 @@ button:hover, button:focus, button:active {
 
 .pricing__grid-orange .pricing__grid-header {
     background-color: #f26822;
-    background-image: url("/assets/images/pricing-bg-orange.png");
+    background-image: url("../../assets/images/pricing-bg-orange.png");
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .pricing__grid-orange .pricing__grid-header {
-        background-image: url("/assets/images/pricing-bg-orange@2x.png");
+        background-image: url("../../assets/images/pricing-bg-orange@2x.png");
     }
 }
 
@@ -8117,12 +8117,12 @@ button:hover, button:focus, button:active {
 
 .pricing__grid-green .pricing__grid-header {
     background-color: #4aa47b;
-    background-image: url("/assets/images/pricing-bg-green.png"); 
+    background-image: url("../../assets/images/pricing-bg-green.png"); 
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .pricing__grid-green .pricing__grid-header {
-         background-image: url("/assets/images/pricing-bg-green@2x.png"); 
+         background-image: url("../../assets/images/pricing-bg-green@2x.png"); 
     }
 }
 
@@ -8141,12 +8141,12 @@ button:hover, button:focus, button:active {
 
 .pricing__grid-yellow .pricing__grid-header {
     background-color: #f9d750;
-    background-image: url("/assets/images/pricing-bg-yellow.png");
+    background-image: url("../../assets/images/pricing-bg-yellow.png");
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .pricing__grid-yellow .pricing__grid-header {
-        background-image: url("/assets/images/pricing-bg-yellow@2x.png"); 
+        background-image: url("../../assets/images/pricing-bg-yellow@2x.png"); 
     }
 }
 
@@ -8165,12 +8165,12 @@ button:hover, button:focus, button:active {
 
 .pricing__grid-red .pricing__grid-header {
     background-color: #e24c43;
-    background-image: url("/assets/images/pricing-bg-red.png"); 
+    background-image: url("../../assets/images/pricing-bg-red.png"); 
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .pricing__grid-red .pricing__grid-header {
-        background-image: url("/assets/images/pricing-bg-red@2x.png"); 
+        background-image: url("../../assets/images/pricing-bg-red@2x.png"); 
     }
 }
 
@@ -8189,12 +8189,12 @@ button:hover, button:focus, button:active {
 
 .pricing__grid-purple .pricing__grid-header {
     background-color: #403595;
-    background-image: url("/assets/images/pricing-bg-purple.png"); 
+    background-image: url("../../assets/images/pricing-bg-purple.png"); 
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .pricing__grid-purple .pricing__grid-header {
-         background-image: url("/assets/images/pricing-bg-purple@2x.png"); 
+         background-image: url("../../assets/images/pricing-bg-purple@2x.png"); 
     }
 }
 
@@ -8220,7 +8220,7 @@ button:hover, button:focus, button:active {
     display: inline-block;
     width: 252px;
     height: 162px;
-    background: url("/dist/assets/images/package-head-bg.png") no-repeat center center;
+    background: url("../../assets/images/package-head-bg.png") no-repeat center center;
     background-size: cover;
     font-size: 38px;
     margin-left: 20px;
@@ -10141,7 +10141,7 @@ Demo - demo style
 .demo__masthead {
     display: table;
     position: relative;
-    background-image: url("/assets/images/demo-masthead-bg.png"); 
+    background-image: url("../../assets/images/demo-masthead-bg.png"); 
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: cover;
